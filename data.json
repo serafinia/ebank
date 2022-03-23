@@ -1,0 +1,8 @@
+
+[
+    {"username": "tomas", "password": "tomasebank123", "saldo": 500000,"id": 1},
+    {"username": "lucia", "password": "luciaebank123", "saldo": 40000, "id": 2},
+    {"username": "gonzalo", "password": "gonzaloebank123", "saldo": 1000000, "id": 3},
+    {"username": "pablo", "password": "pabloebank123", "saldo": 500, "id": 4},
+    {"username": "laura", "password": "lauraebank123", "saldo": 10000, "id": 5}
+]  

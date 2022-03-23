@@ -1,0 +1,250 @@
+/*desktop*/
+
+/* header*/
+body{
+    background-image: url("img/1.jpg");
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    background-image: url("/img/1.jpg");
+    background-color: hsla(0, 0%, 100%, 0.322);
+    font-weight: bold;
+}
+.footer-contenido{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: black;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.footer-der{
+    text-align: center;
+}
+
+.footer-cont{
+    text-align: center;
+}
+
+.footer-red{
+    text-align: center;
+}
+
+
+/*index.html*/
+/*formulario*/
+
+.formulario-index{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0% 5% 0%;
+    
+}
+
+.form-index-tittle{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+
+
+.name-surname{
+    display: flex;
+    justify-content: center;
+    margin-top: 4% ;
+}
+
+.name{
+    display: flex;
+    justify-content:left;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+}
+
+.enviar{
+    display: flex;
+    justify-content: right;
+    margin-right: 36%;
+}
+
+#sendEmail{
+    color: black;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.835);
+    text-align: center;
+    width: 30%;
+}
+
+.sendEmailMes{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+
+/* producto.html */
+/* prodcutos */
+.product{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    margin: 10% 5% 10% 5%;
+}
+
+/*signin.html*/
+.content-signin{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 90px;
+margin-bottom: 5%;
+padding-left: 5%;
+padding-right: 5%;
+
+}
+
+.tittle-signin{
+    width: 60%;
+    height: 10vh;
+    padding-bottom:0%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color:#003a8600;
+    border-radius: 2%;
+    padding-bottom: 2%;
+    
+}
+
+
+.text-signin{
+    text-align: center;
+    color: white;
+    font-size: 5vh;
+    margin-bottom: 0%;
+}
+
+.formulario-iniciarSesion{ 
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 3;
+    background-color: rgba(211, 211, 211, 0);
+    border-radius: 2%;
+    height: 55vh;
+    width:60%;
+}
+
+#signInError{
+    color: red;
+}
+
+/* transferir-prestamos-pfpesos-pfdolares formularios */
+.content-signin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    margin-bottom: 5%;
+    
+    }
+    
+    .tittle-signin{
+        width: 60%;
+        height: 10vh;
+        padding-bottom:0%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        background-color:#003a8600;
+        border-radius: 2%;
+        
+    }
+    
+    
+    .text-signin{
+        text-align: center;
+        color: white;
+        font-size: 5vh;
+        margin-bottom: 0%;
+    }
+    
+    .formulario-signin{ 
+        margin-top: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 3;
+        background-color: rgba(211, 211, 211, 0);
+        border-radius: 2%;
+        height: 55vh;
+        width:60%;
+        background-color: rgba(255, 255, 255, 0.589);
+        border: solid white;
+    }
+
+    .button-sign{
+        margin-top: 50px;
+    }
+
+/*operar.html*/
+
+.tittle-operar{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 2%;
+    color:white;
+    font-weight: bold;
+}
+
+.operaciones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/*transferir.html*/
+/* alertas */
+
+.swal-modal {
+    background-color: white;
+    border: 3px solid #003986;
+  }
+
+  .swal-button {
+    padding: 7px 19px;
+    border-radius: 2px;
+    background-color: lightgrey;
+    font-size: 12px;
+    border: 1px solid #003986;
+    color: black;
+  }
+
+/*mobile*/
+@media (max-width:480px){
+   body {font-size: 20px; 
+   }
+}
+
